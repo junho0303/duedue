@@ -51,3 +51,6 @@ day02폴더 -> git repository
 
     ※ git commit -am '메세지'
     -a 와 -m 한번에
+
+    ※ git checkout (이동하고 싶은 브랜치 이름)
+    --> 브랜치 이동
