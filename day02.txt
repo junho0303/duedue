@@ -78,9 +78,15 @@ branch
     ※ git branch -m (바뀔 브랜치 이름)
     --> 현재 내가 위치한 브랜치 이름 변경
 
-Github와 연결
-    git remote add (별명) (연결 github 주소)
-    --> 연결 확인 : git remote
+Github
+    Github와 연결
+        git remote add (별명) (연결 github 주소)
+        --> 연결 확인 : git remote
+
+        git remote -u add (별명) (연결 github 주소)
+        --> -u : 알아서 연결된 원격 저장소에 업로드, 다운로드가 된다
+        
 
     업로드
         git push (연결 주소의 별명) (branch)
+        --> 변경사항이 있을 때 마다 업로드 해줘야 깃허브에 업로드 됨
