@@ -22,9 +22,27 @@ day02폴더 -> git repository
     ※ git commit
     --> 영구저장
     --> stage에 올라가 있는 임시저장된 파일들만 영구 저장이 된다
+    --> insert 상태에서 변경사항에 대한 설명 적고 esc를 눌러서 insert 상태에서 나간후
+        :wq 입력하면 저장
     
     ※ git status
     --> 현재 상태 확인 가능
 
     ※ git restore --staged (파일 이름)
     --> 영구저장에서 없애기
+
+    ※ git log
+    --> 기록 확인 가능
+
+    untracked
+        무조건 처음 새롭게 만들어진 파일은 untracked
+        한번이라도 stage에 올라갔고, commit이 됐다면 무조건 tracted
+
+    ※ git add .(마침표)
+    --> modified된 파일 모두 stage로 올림
+
+    ※ git commit -m '메세지'
+    --> commit하면서 메세지를 동시에 작성하는 옵션
+    
+    ※ git commit -a
+    --> add하면서 commit하는 옵션
