@@ -46,3 +46,8 @@ day02폴더 -> git repository
     
     ※ git commit -a
     --> add하면서 commit하는 옵션
+    단, 파일이 tracted 상태일때만 가능 : 이전에 저장된 적이 있는 파일만 가능
+    --> stage에 올라간 적이 있거나 commit이 된적 있는 파일
+
+    ※ git commit -am '메세지'
+    -a 와 -m 한번에
