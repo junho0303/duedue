@@ -61,3 +61,6 @@ branch
 
     ※ git branch (branch이름)
     --> branch 만들기
+
+    ※ git merge (합칠 branch이름)
+    --> 브랜치 합치기 -> 현재 내가 있는 브랜치를 기준으로 합쳐짐
