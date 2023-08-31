@@ -52,6 +52,7 @@ day02폴더 -> git repository
     ※ git commit -am '메세지'
     -a 와 -m 한번에
 
+
 branch
     기능별로 혹은 파일 별로 수정사항을 저장할 수 있도록 도와주는 장치
     기본적으로 branch를 만들면 master branch가 만들어진다.
@@ -64,3 +65,7 @@ branch
 
     ※ git merge (합칠 branch이름)
     --> 브랜치 합치기 -> 현재 내가 있는 브랜치를 기준으로 합쳐짐
+
+    ※ git checkout (이동하고 싶은 브랜치 이름)
+    --> 브랜치 이동
+
