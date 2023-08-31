@@ -41,10 +41,10 @@ day02폴더 -> git repository
     ※ git add .(마침표)
     --> modified된 파일 모두 stage로 올림
 
-    ※ git commit -m '메세지'
+    ※ git commit -m '메세지' : message
     --> commit하면서 메세지를 동시에 작성하는 옵션
     
-    ※ git commit -a
+    ※ git commit -a : add
     --> add하면서 commit하는 옵션
     단, 파일이 tracted 상태일때만 가능 : 이전에 저장된 적이 있는 파일만 가능
     --> stage에 올라간 적이 있거나 commit이 된적 있는 파일
@@ -66,6 +66,21 @@ branch
     ※ git merge (합칠 branch이름)
     --> 브랜치 합치기 -> 현재 내가 있는 브랜치를 기준으로 합쳐짐
 
+    이때 다른 줄이 수정되어있으면 이상없이 병합하고 같은 줄이 수정됐으면
+    충돌 발생 -> 직접 어떤 코드 설정할지 작성해준 후 직접 add, commit 진행
+
     ※ git checkout (이동하고 싶은 브랜치 이름)
     --> 브랜치 이동
 
+    ※ git branch -d (삭제할 브랜치이름) : delet
+    --> 현재 branch에서 합쳐졌던 브랜치 삭제
+
+    ※ git branch -m (바뀔 브랜치 이름)
+    --> 현재 내가 위치한 브랜치 이름 변경
+
+Github와 연결
+    git remote add (별명) (연결 github 주소)
+    --> 연결 확인 : git remote
+
+    업로드
+        git push (연결 주소의 별명) (branch)
